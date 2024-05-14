@@ -8,7 +8,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.1"
 REPO_NAME = "mongodboperationsmt"
-PKG_NAME= "mongodboperationsmt"
+PKG_NAME= "mttopete_mongodb"
 AUTHOR_USER_NAME = "mttopete"
 AUTHOR_EMAIL = "mttopete@gmail.com"
 

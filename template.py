@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "mongodboperationsmt"
+package_name = "mttopete_mongodb"
 
 files = [
     ".github/workflows/ci.yaml",
