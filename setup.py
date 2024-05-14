@@ -3,21 +3,21 @@ from typing import List
 from setuptools import find_packages, setup
 
 with open('README.md', 'r', encoding='utf-8') as f:
-    long_description = f.read()
-
+    long_description = f.read()     
+   
 
 __version__ = "0.0.1"
-REPO_NAME = "mongodboperationsmt"
+REPO_NAME = "mongodbconnectorpkg"
 PKG_NAME= "mttopete_mongodb"
 AUTHOR_USER_NAME = "mttopete"
-AUTHOR_EMAIL = "mttopete@gmail.com"
+AUTHOR_EMAIL = "mateottopete@gmail.com"
 
 setup(
     name=PKG_NAME,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A python package for connecting with mongodb.",
+    description="A python package for connecting with database.",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
