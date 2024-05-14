@@ -4,7 +4,6 @@ from typing import Any
 
 import pandas as pd
 import pymongo
-from ensure import ensure_annotations
 from pymongo.mongo_client import MongoClient
 
 
